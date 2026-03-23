@@ -10,6 +10,8 @@ public class EstruturaDeSelecao {
         cod = entrada.nextInt();
         System.out.println();
 
+        // Estrutura de seleção, compara a variável cod com um dos casos listados abaixo.
+        // Se não encontra coincidência, o default será executado.K
         switch (cod) {
             case 1:
                 System.out.println("Alimento não perecível");
