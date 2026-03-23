@@ -29,5 +29,25 @@ public class EstruturaDeSelecao {
                 System.out.println("Produto não existente");
                 break;
         }
+
+//        Ignora a linha em branco após a inserção de um número.
+        /* Necessário apenas quando vamos ler uma palavra após realizar
+        * a leitura de um número qualquer.*/
+        entrada.skip("\n");
+
+        String nome;
+
+        System.out.println("Informe um nome");
+        nome = entrada.nextLine();
+
+        switch (nome){
+            case "Fabricio" -> {
+                System.out.println("Fabrício");
+            }
+
+            default -> {
+                System.out.println("!Fabrício");
+            }
+        }
     }
 }
