@@ -23,6 +23,7 @@ public class ClassificacaoDePessoasEleitoras {
 
     }
 
+    // Função para imprimir a mensagem na tela.
     public static void exibirMensagem(String mensagem) {
         System.out.println(mensagem + "\n");
     }
