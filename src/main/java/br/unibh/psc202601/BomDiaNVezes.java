@@ -7,7 +7,7 @@ public class BomDiaNVezes {
         System.out.println("Programa para exibir bom dia 30 x");
 
         while (contador < 30) {
-            System.out.println("Bom dia!!!");
+            System.out.println("Bom dia!!! " + (contador + 1));
             contador++;
         }
     }
